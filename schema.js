@@ -1,12 +1,15 @@
 const graphql = require('graphql');
 const {GraphQLObjectType,GraphQLString,GraphQLSchema,GraphQLID,GraphQLInt} = graphql;
 
+
+//this is dummy data
 const dummyData = [
     {id:'1',name:'Programming in JavaScript',genre:'Coding'},
     {id:'2',name:'Data Structure and Algorithms',genre:'Algorithms'},
     {id:'3',name:'Operating Systems',genre:'Computer Architecture'}
 ];
 
+// this is author data
 const author = [
     {id:'1',name:'Shadman',profession:'developer',age:20},
     {id:'2',name:'Priyo',profession:'ubisoft forever intern',age:21},
